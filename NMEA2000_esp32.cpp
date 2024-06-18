@@ -28,6 +28,7 @@ can.h library, which may cause even naming problem.
 */
 
 #include "driver/periph_ctrl.h"
+#include <rom/gpio.h>
 
 #include "soc/dport_reg.h"
 #include "NMEA2000_esp32.h"
